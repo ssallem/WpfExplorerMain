@@ -8,7 +8,6 @@ namespace WpfExplorer.Support.UI.Units
         static CloseButton()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(CloseButton), new FrameworkPropertyMetadata(typeof(CloseButton)));
-            // test
         }
     }
 }
