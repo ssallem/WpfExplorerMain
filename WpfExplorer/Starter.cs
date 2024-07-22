@@ -12,6 +12,7 @@ namespace WpfExplorer
         public static void Main(string[] args)
         {
             _ = new App().Run();
+                .AddWireDataContext<WIreDataContext>()
         }
     }
 }
