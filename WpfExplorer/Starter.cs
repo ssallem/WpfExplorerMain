@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WpfExplorer.Properties;
 
 namespace WpfExplorer
 {
@@ -11,8 +7,10 @@ namespace WpfExplorer
         [STAThread]
         public static void Main(string[] args)
         {
-            _ = new App().Run();
+            _ = new App()
+                .AddInversionModule<HelperModules>()
                 .AddWireDataContext<WIreDataContext>()
+                .Run();
         }
     }
 }
