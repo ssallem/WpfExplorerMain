@@ -15,6 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WpfExplorer.Forms\WpfExplorer.Forms.csproj" />
-    <ProjectReference Include="..\WpfExplorer.Support\WpfExplorer.Support.csproj" />
+    <ProjectReference Include="..\WpfExplorer.Main\WpfExplorer.Main.csproj" />
   </ItemGroup>
 </Project>

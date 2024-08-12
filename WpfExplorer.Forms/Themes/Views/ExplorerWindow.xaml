@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:james="clr-namespace:Jamesnet.Wpf.Controls;assembly=Jamesnet.Wpf"
                     xmlns:based="clr-namespace:WpfExplorer.Support.UI.Units;assembly=WpfExplorer.Support"
                     xmlns:units="clr-namespace:WpfExplorer.Forms.UI.Units"
                     xmlns:views="clr-namespace:WpfExplorer.Forms.UI.Views">
@@ -7,7 +8,8 @@
            BasedOn="{StaticResource {x:Type based:DarkWindow}}">
         <Setter Property="Content">
             <Setter.Value>
-                <StackPanel>
+                <james:JamesRegion RegionName="MainRegion" />
+                <!--<StackPanel>
                     <TextBlock Text="{Binding DownloadDirectory}"
                                Foreground="#FFFFFF" />
                     <TextBlock Text="{Binding DocumentsDirectory}"
@@ -20,7 +22,7 @@
                         <units:FolderTreeItem Header="devExpress" />
                         <units:FolderTreeItem Header="avalonia" />
                     </units:FolderTreeView>
-                </StackPanel>
+                </StackPanel>-->
             </Setter.Value>
         </Setter>
     </Style>
