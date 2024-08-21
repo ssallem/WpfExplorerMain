@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 
-namespace WpfExplorer.Forms.Local.Models
+namespace WpfExplorer.Support.Local.Models
 {
     public partial class FolderInfo : FileInfoBase
     {

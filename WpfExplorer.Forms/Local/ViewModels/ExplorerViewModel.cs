@@ -2,7 +2,7 @@
 using Jamesnet.Wpf.Mvvm;
 using Prism.Ioc;
 using Prism.Regions;
-using WpfExplorer.Forms.Local.Models;
+using WpfExplorer.Support.Local.Models;
 
 namespace WpfExplorer.Forms.Local.ViewModels
 {
